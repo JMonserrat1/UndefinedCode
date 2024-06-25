@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>UndefinedCode 💻🚀</title>
+</head>
+
+<body>
+    <nav>
+        <h2>UndefinedCode</h2>
+        <input type="checkbox" id="toggler" />
+        <label for="toggler"><img id="imagen" src="assets/desplegable.png" alt="" onclick="menuX()" /></label>
+        <!-- Ícono de menú desplegable -->
+        <div class="menu">
+            <ul class="list">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#SERVICIOS">Servicios</a></li>
+                <li><a href="#NOSOTROS">Nosotros</a></li>
+                <li><a href="#CONTACTO">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+  <section class="presentation" id="presentation">
+    <div class="container__principal">
+      <div class="presentation__you">
+        <h2> <span> UNDEFINED <br>
+            CODE</span>
+        </h2>
+        <p>
+          "Desde la idea de 2 amigos, surge UndefinedCode, una pequeña empresa..."
+        </p>
+        <a href="#NOSOTROS">
+          <button>Conócenos <a href="#SERVICIOS"></a></button>
+        </a>
+      </div>
+      <div class="presentation__img" data-aos="fade-up">
+        <img src="./assets/mundo-vector.png" alt="Foto Mundo" data-aos-anchor-placement="center-bottom">
+      </div>
+    </div>
+  </section>
+
+  <section id="SERVICIOS">
+    <div class="servicios-gral">
+      <h2>NUESTROS SERVICIOS</h2>
+      <div class="servicios">
+        <div class="servicios__description" data-aos="zoom-in-up">
+          <h3>Landing Page</h3>
+          <p>Una Landing Page es una página web diseñada para persuadir al visitante al realizar una acción específica,
+            es una sola página deslizable con información acotada.</p>
+        </div>
+        <div class="servicios__description" data-aos="zoom-in-up">
+          <h3>Sitio corporativo</h3>
+          <p>Presencia en línea de una empresa, que proporciona información sobre la empresa, sus productos/servicios,
+            historia, equipo y contacto. Busca transmitir una imagen profesional y confiable de la marca.
+          </p>
+        </div>
+        <div class="servicios__description" data-aos="zoom-in-up">
+          <h3>Ecommerce</h3>
+          <p>Plataforma en línea que permite comprar y vender productos o servicios. Incluye catálogos de productos,
+            carritos de compra, opciones de pago seguro y gestión de pedidos, con el objetivo de facilitar la
+            experiencia de compra del usuario y generar ventas.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="CREADORES">
+    <div class="creadores">
+      <h2>Creadores</h2>
+      <div class="creadores__contenedor">
+        <div class="creadores__item">
+          <img src="./assets/owner.jpeg" alt="Creador 1">
+          <div class="creadores__overlay">
+            <p>Jeremias Monserrat</p>
+          </div>
+        </div>
+        <div class="creadores__item">
+          <img src="./assets/owner.jpeg" alt="Creador 2">
+          <div class="creadores__overlay">
+            <p>Franco Pipino</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="NOSOTROS">
+    <div class="nosotros" data-aos="zoom-out-up">
+      <img src="./assets/Logo undefined.png" alt="Imagen Nosotros" class="nosotros__imagen">
+      <h3 class="nosotros__titulo">Nosotros</h3>
+      <p class="nosotros__descripcion" >
+          Somos una empresa dedicada a ofrecer productos de alta calidad. Nuestro equipo está comprometido con la excelencia y trabajamos arduamente para asegurar que nuestros clientes reciban el mejor servicio posible. Nos enorgullecemos de nuestra atención al detalle y de nuestra capacidad para satisfacer las necesidades de nuestros clientes.
+      </p>
+  </div>
+  </section>
+
+  <section id="CONTACTO">
+    <div class="contact">
+      <h3>CONTACTO</h3>
+      <p>Utiliza las siguientes vías de contactos, para contactarnos.</p>
+
+      <div class="contact__contenedor">
+        <p>Vía E-mail</p>
+        <a href="mailto:undefined.coded@gmailcomsubject=me interesa su trabajo UndefinedCode&body=Hola, me gustaria saber sobre sus servicios y trabajos." class="mail-link">Enviar correo</a>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    2024 - ©Copyright Undefined code
+  </footer>
+
+  <script src="./script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
